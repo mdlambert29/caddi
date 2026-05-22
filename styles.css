@@ -241,6 +241,7 @@ body.asm #chart, body.asm #stats { display: none !important; }
 }
 #asm-chart { width: 100%; height: 100%;
   background: radial-gradient(ellipse at center, #ffffff 0%, #e8f2fa 75%); }
+#asm-chart > g { transform: translateY(40px); }
 
 /* ── Assembly stats bar ─────────────────────────────── */
 #asm-stats {
